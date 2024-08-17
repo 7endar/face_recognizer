@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
+import PIL
 from PIL import Image, ImageTk
 import subprocess
 import json
@@ -10,6 +11,7 @@ target_size = 300
 is_images_valid = False
 is_resized_images_valid = False
 threshold = 0.6
+
 
 def insert_image(text_widget, image_path):
     image = Image.open(image_path)
