@@ -77,7 +77,7 @@ while (True):
         cv2.putText(image, str(prediction), (l, b + 20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 0, 255), 1)
 
     cv2.imshow("Face Camera", image)
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == 27:
         print(json.dumps({"success": True, "message": "Camera closed successfully"}))
         break
 
