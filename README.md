@@ -16,7 +16,10 @@ When you run the ***menu.py*** file located in the *scripts* folder, a window wi
 
 1. At the top of this window, there is a *Target Size* field. This pixel value checks whether your images are the same size *(target size x target size)*. You can change this value by entering another value and clicking the ***Set Size*** button if desired.
 
-2. In the *data* folder, add images to the *faces* folder for face recognition. These images should be square and contain only the complete one single face. The images can be of different sizes, but they must all be larger than the *Target Size* value. Filenames must start with *“name_”* (e.g. pam_1 or dwight_happy)
+2. In the *data* folder, add images to the *faces* folder for face recognition.
+   * These images should be square and contain only a single, complete face.
+   * The images can be of different sizes, but they must all be larger than the *Target Size* value.
+   * Filenames must start with *“name_”* (e.g. pam_1 or dwight_happy)
 
 <details>
   <summary>faces Folder</summary>
